@@ -25,12 +25,12 @@ public class CreditCardAppTestTwo {
     }
 
     @Test
-    public void visaSimpleInterest() {
+    public void walletOneSimpleInterest() {
         assertEquals(11, wallet[0].getCardMonthlyInterest(), 0);
     }
 
     @Test
-    public void mastercardSimpleInterest() {
+    public void walletTwoSimpleInterest() {
         assertEquals(5, wallet[1].getCardMonthlyInterest(), 0);
     }
 
